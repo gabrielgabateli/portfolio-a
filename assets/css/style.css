@@ -83,6 +83,7 @@ p {
     -webkit-text-stroke-color: black;
 }
 
+
 #secao-apresentacao {
     display: flex;
     padding: 1rem;
@@ -93,4 +94,9 @@ p {
 
 #secao-apresentacao img {
     border-radius: 50%;
+}
+
+.foto_perfil {
+    height: 300px;
+    width: 300px;
 }
