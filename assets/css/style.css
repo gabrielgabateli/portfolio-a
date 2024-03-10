@@ -46,8 +46,8 @@ header::before {
 ul {
     font-family: var(--font-body);
     color: var(--branco--fraco);
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
 }
@@ -83,3 +83,14 @@ p {
     -webkit-text-stroke-color: black;
 }
 
+#secao-apresentacao {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#secao-apresentacao img {
+    border-radius: 50%;
+}
