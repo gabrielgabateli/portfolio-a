@@ -12,13 +12,14 @@
 }
 
 #div-logo {
-    width: 100vw;
+    width: 98vw;
     display: flex;
     justify-content: center;
 }
 
 #logo {
-    height: 200px;;
+    height: 200px;
+
 }
 
 #div-botoes {
@@ -59,7 +60,7 @@ body {
 h1 {
     font-family: var(--font-title);
     color: var(--verde-claro);
-    font-size: 46px;
+    font-size: 52px;
     font-weight: 800;
     -webkit-text-stroke-width: 0.9px;
     -webkit-text-stroke-color: black;
@@ -74,11 +75,20 @@ h2 {
     -webkit-text-stroke-color: black;
 }
 
+h3 {
+    font-family: var(--font-body);
+    color: var(--verde-claro);
+    font-size: 26px;
+    font-weight: 500;
+    -webkit-text-stroke-width: 0.55px;
+    -webkit-text-stroke-color: black;
+}
+
 p {
     font-family: var(--font-body);
     color: var(--branco--fraco) ;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     -webkit-text-stroke-width: 0.65px;
     -webkit-text-stroke-color: black;
 }
@@ -100,3 +110,34 @@ p {
     height: 300px;
     width: 300px;
 }
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .personagem {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 45px; 
+  }
+  
+  .personagem img {
+    width: 300px;
+    height: 300px; 
+    margin-right: 30px; 
+  }
+
+  .descricao_personagem {
+    width: 50%;
+  }
+
+  a {
+    margin-right: 20px;
+  }
+
+  
