@@ -13,3 +13,4 @@
     - [ ] Episódio da Mosca
     - [ ] Paleta de cores das roupas
     - [ ] Referências dos nomes dos episódios
+- [ ] Parallax na foto de fundo
