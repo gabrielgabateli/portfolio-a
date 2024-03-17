@@ -12,6 +12,10 @@
     --font-body: "Poppins", sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     list-style: none;
@@ -27,9 +31,16 @@
 
 }
 
-#div-botoes {
-    margin-top: 10px;
-    margin-bottom: 0px;
+.wrapper-botoes {
+    width: 100vw;
+    background-color: var(--rosa);
+
+}
+
+
+#secao-botoes {
+    margin-top: 20px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
 }
@@ -154,9 +165,9 @@ a {
 }
 
 .card {
-    width: 650px;
-    height: 350px;
-    margin: 0 auto;
+    width: 45vw;
+    height: 45vh;
+    margin-left: -35px;
     position: relative;
     cursor: pointer;
 }
@@ -201,6 +212,6 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    gap: 35px;
+    gap: 30px;
     justify-items: center;
 }
