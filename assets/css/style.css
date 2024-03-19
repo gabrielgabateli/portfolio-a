@@ -16,13 +16,35 @@ body {
     overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--verde-escuro); /* Cor do polegar */
+    border-radius: 6px; /* Borda arredondada do polegar */
+}
+
+
 * {
-    margin: 1;
     list-style: none;
 }
 
+a {
+    font-family: var(--font-body);
+    color: var(--branco--fraco) ;
+    font-size: 22px;
+    font-weight: 400;
+    /* -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black; */
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
 #div-logo {
-    width: 98vw;
+    width: 100vw;
     display: flex;
     justify-content: center;
 }
@@ -33,8 +55,8 @@ body {
 }
 
 .wrapper-botoes {
-    width: 100vw;
-    background-color: var(--rosa);
+    width: 100%;
+    background-color: var(--verde-claro);
 
 }
 
@@ -47,7 +69,7 @@ body {
 }
 
 header {
-    height: 35vh;
+    height: 100vh;
 }
 
 
@@ -58,7 +80,7 @@ ul {
     font-weight: 700;
     /* -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black; */
-    margin: 2;
+    margin-left: -20px;
 }
 
 body {
@@ -105,6 +127,8 @@ p {
     /* -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: black; */
     margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
 }
 
 
@@ -215,3 +239,16 @@ a {
     font-size: 60px;
     font-weight: bolder;
 }
+
+.container-index {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paragrafo {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
