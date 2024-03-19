@@ -17,7 +17,7 @@ body {
 }
 
 * {
-    margin: 0;
+    margin: 1;
     list-style: none;
 }
 #div-logo {
@@ -57,6 +57,7 @@ ul {
     font-weight: 700;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
+    margin: 2;
 }
 
 body {
