@@ -46,19 +46,9 @@ body {
 }
 
 header {
-    height: 100vh;
+    height: 35vh;
 }
 
-header::before {
-    content: "";
-    background-image: url(../images/walter_and_jesse.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    display: block;
-    position: absolute;
-    z-index: -10;
-}
 
 ul {
     font-family: var(--font-body);
