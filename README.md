@@ -6,7 +6,7 @@
     - [x] HTML
     - [ ] CSS
 - [ ] Apresentação/Sinopse
-- [ ] Personagens
+- [x] Personagens
 - [ ] Sinopse e Episódios por Temporada
 - [ ] Galeria de fotos
 - [ ] Curiosidades
