@@ -5,7 +5,7 @@
 - [ ] Header
     - [x] HTML
     - [ ] CSS
-- [ ] Apresentação/Sinopse
+- [x] Apresentação/Sinopse
 - [x] Personagens
 - [ ] Sinopse e Episódios por Temporada
 - [ ] Galeria de fotos
