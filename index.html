@@ -102,6 +102,56 @@
             </li>
         </ul>
     </section>
-    
+
+    <section id="secao-formulario">
+        <h1>Mande sua pergunta</h1>
+        <form action="">
+            <div class="campo linha">
+                <label for="nome">Seu nome</label>
+                <input type="text" id="nome">
+            </div>
+
+            <div class="campo">    
+                <label for="sexo">Sexo</label>
+                <div class="linha">
+                    <input type="radio" name="sexo" id="prototipo_homem">
+                    <label for="prototipo_homem">Homem</label>
+                    <input type="radio" name="sexo" id="prototipo_mulher">
+                    <label for="prototipo_mulher">Mulher</label>
+                    <input type="radio" name="sexo" id="prototipo_nenhum">
+                    <label for="prototipo_nenhum">Não informar</label>
+                </div>
+            </div>
+            
+
+            <div class="campo">
+                <label for="ator">Escolha o personagem</label>
+                <select id="ator">
+                    <option value="0"></option>
+                    <option value="1">Walter White</option>
+                    <option value="2">Jesse Pinkman</option>
+                    <option value="3">Skyler White</option>
+                    <option value="4">Hank Schrader</option>
+                    <option value="5">Gustavo Fring</option>
+                    <option value="6">Saul Goodman</option>
+                </select>
+            </div>
+
+            <div class="campo linha">
+                <label for="mensagem">Sua mensagem</label>
+                <input type="text" id="mensagem">
+            </div>
+
+
+            <input type="checkbox" id="js">
+            <label for="js"></label>
+
+            <label for="nivel-fa">Selecione o quão fã da série você é</label>
+            <input type="range" min="1" max="10" id="prazo">
+
+            <input type="button" value="Enviar mensagem">
+        </form>
+    </section>
+
 </body>
 </html>

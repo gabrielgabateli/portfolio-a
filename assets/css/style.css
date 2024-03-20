@@ -195,9 +195,6 @@ a {
     position: relative;
     width: 100%;
     height: 100%;
-    /* display: flex;
-    justify-content: center; 
-    align-items: center; */
 }
 
 .image-wrapper img {
@@ -228,6 +225,7 @@ a {
 }
 
 #secao-temporadas ul {
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
@@ -252,3 +250,33 @@ a {
     margin-right: 20px;
 }
 
+#secao-formulario {
+    margin-top: 370px;
+}
+
+#secao-formulario form {
+    /* height: 100vh; */
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.linha {
+    grid-column: 1 / 3;
+}
+
+input[type=radio]
+input[type=checkbox]
+input[type=range]
+{
+    accent-color: var(--rosa);
+}
