@@ -284,6 +284,13 @@ input[type=range]
 .fa {
     display: flex;
     flex-direction: column;
-    height: 2vh;
     justify-content: center;
 }
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
