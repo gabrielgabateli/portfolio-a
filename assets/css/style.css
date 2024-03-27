@@ -267,7 +267,7 @@ a {
 .campo {
     display: flex;
     flex-direction: column;
-
+    height: 8vh;
 }
 
 .linha {
@@ -279,4 +279,11 @@ input[type=checkbox]
 input[type=range]
 {
     accent-color: var(--rosa);
+}
+
+.fa {
+    display: flex;
+    flex-direction: column;
+    height: 2vh;
+    justify-content: center;
 }
