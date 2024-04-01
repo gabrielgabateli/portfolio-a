@@ -294,3 +294,14 @@ input[type=range]
     justify-content: center;
 }
 
+.image-wrapper-galeria {
+    /* object-fit: cover; */
+    /* max-width: 300px;
+    max-height: 300px; */
+    object-fit: cover;
+    max-width: 50%;
+    max-height: 50%;
+    /* width: 100%; */
+    height: auto;
+    margin-bottom: 50px;
+}
