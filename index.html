@@ -105,7 +105,12 @@
     </section>
 
     <section id="secao-formulario">
-        <h1>Mande sua pergunta</h1>
+        <h1>Mande sua mensagem</h1>
+        <div class="paragrafo">
+        <p>Aposto que em diversos momentos da série você já teve vontade de mandar uma mensagem de amor (ou de ódio) para um dos personagens. Aqui é um cantinho especial
+            para você digitar sua mensagem e fingir que vai enviar para um dos personagens (mas na verdade você só estará enviando para a gente mesmo.) Divirta-se!
+        </p>
+    </div>
         <form action="">
 
             <div class="campo linha">
@@ -116,11 +121,11 @@
             <div class="campo">    
                 <label for="sexo">Sexo</label>
                 <div class="linha">
-                    <input type="radio" name="sexo" id="prototipo_homem">
+                    <input type="radio" name="sexo" id="prototipo_homem" value="Homem">
                     <label for="prototipo_homem">Homem</label>
-                    <input type="radio" name="sexo" id="prototipo_mulher">
+                    <input type="radio" name="sexo" id="prototipo_mulher" value="Mulher">
                     <label for="prototipo_mulher">Mulher</label>
-                    <input type="radio" name="sexo" id="prototipo_nenhum">
+                    <input type="radio" name="sexo" id="prototipo_nenhum" value="Não informado">
                     <label for="prototipo_nenhum">Não informar</label>
                 </div>
             </div>
@@ -130,12 +135,12 @@
                 <label for="ator">Escolha o personagem</label>
                 <select id="ator">
                     <option value="0"></option>
-                    <option value="1">Walter White</option>
-                    <option value="2">Jesse Pinkman</option>
-                    <option value="3">Skyler White</option>
-                    <option value="4">Hank Schrader</option>
-                    <option value="5">Gustavo Fring</option>
-                    <option value="6">Saul Goodman</option>
+                    <option value="Walter White">Walter White</option>
+                    <option value="Jesse Pinkman">Jesse Pinkman</option>
+                    <option value="Skyler White">Skyler White</option>
+                    <option value="Hank Schrader">Hank Schrader</option>
+                    <option value="Gustavo Fring">Gustavo Fring</option>
+                    <option value="Saul Goodman">Saul Goodman</option>
                 </select>
             </div>
 
@@ -146,10 +151,10 @@
 
             <div class="fa">
                 <label for="nivel-fa">Selecione o quão fã da série você é</label>
-                <input type="range" min="1" max="11" id="prazo">
+                <input type="range" min="0" max="10" id="prazo">
             </div>
             <div class="mensagem">
-                <input type="button" value="Enviar mensagem">
+                <input type="button" value="Enviar mensagem" id="botao_enviar">
             </div>
             <div class="campo">
                 <output id="mensagemusuario">Mensagem enviada!</output>

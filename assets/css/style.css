@@ -305,3 +305,9 @@ input[type=range]
     height: auto;
     margin-bottom: 50px;
 }
+
+#mensagemusuario {
+    font-size: 25px;
+    font-weight: 900;
+    display: none;
+}
